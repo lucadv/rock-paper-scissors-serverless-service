@@ -44,7 +44,7 @@ The service is designed to run as a serverless function in AWS Lambda triggered 
 
 ### Deployment
 
-Install [serverless framework](https://serverless.com/framework/docs/providers/aws/guide/installation/) and configure your serverless profile (you will need to provide an AWS programmatic access key and password).
+Install [serverless framework](https://serverless.com/framework/docs/providers/aws/guide/installation/) and configure your serverless profile (you will need to provide an AWS programmatic access key and password with AWSLambdaFullAccess and IAMFullAccess roles).
 
 Configure your default profile:
 
