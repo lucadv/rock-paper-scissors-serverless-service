@@ -1,0 +1,28 @@
+{
+  "name": "rock-paper-scissors-serverless-service",
+  "version": "1.0.0",
+  "description": "A lambda function designed to be triggered by API Gateway and to expose a rest api to play the game Rock, Paper, Scissors",
+  "main": "index.js",
+  "engines": {
+    "node": "6.10.x"
+  },
+  "dependencies": {
+    "@lucadv/rock-paper-scissors": "^1.1.0",
+    "eslint-config-airbnb": "^17.1.0"
+  },
+  "devDependencies": {
+    "@lucadv/pickme": "^1.0.0",
+    "code": "^1.4.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "lab": "^16.0.0",
+    "lambda-tester": "^3.5.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/lab -t 100 -v -a code --leaks && ./node_modules/.bin/eslint ."
+  },
+  "author": "Luca Di Vincenzo <ldivincenzo@gmail.com>"
+}
